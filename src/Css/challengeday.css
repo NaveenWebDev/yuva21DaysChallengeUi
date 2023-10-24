@@ -1,0 +1,52 @@
+.challengehead h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 22px;
+    background: -webkit-linear-gradient(#44856B, #77934C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+.challengehead img{
+    height: 45px;
+    width: 45px;
+    left: 8%;
+    top: 5%;
+}
+.challnDays{
+    background-color:#F8F8F8;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.challengehead p{
+    font-weight: 600;
+}
+.challengehead p span{
+    color: #997700;
+}
+.daycredits {
+    color: #D0A611;
+    font-weight: 600;
+    width: 10%;
+}
+.dayVal{
+    background-color: 
+    #FF9900;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 19px;
+    line-height: 35px;
+    width: 15%;
+    height: 151px;
+}
+.daypara{
+    width: 70%
+}
+.daypara p:first-child{
+    color: #FFc700;
+}
+.daypara p:last-child{
+    color: #8e8e8e;
+}

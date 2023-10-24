@@ -1,0 +1,30 @@
+:root{
+    --brown:#3F2200
+}
+.no-list-styel{
+    list-style: none;
+}
+li a{
+    color: var(--brown);
+    text-decoration: none;
+}
+.side_items i{
+    color: #FFD233;
+    font-size: 1.5rem;
+}
+.side_items i:first-child{
+    color:#9B9B9B;
+}
+#search{
+    border: none;
+    background-color: #F3F3F3;
+}
+#search:focus{
+    outline: none;
+}
+#search::placeholder{
+    color: #9B9B9B;
+}
+div.inputField{
+    background-color: #F3F3F3;
+}

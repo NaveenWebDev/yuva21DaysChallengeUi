@@ -1,0 +1,8 @@
+.sidebar {
+    list-style-type: none;
+}
+.sidebar li{
+    cursor: pointer;
+    color: #333333;
+    font-weight: 500;
+}
