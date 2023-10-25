@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import "../Css/home.css";
 import Main from "./Main";
-import Sidebar from './Sidebar';
 
-const Home = () => {
+const FinalPage = () => {
   
   return (
     <>
@@ -15,10 +14,7 @@ const Home = () => {
             <main>
             <div className="my_container">
 
-              <div className="d-flex">
-                  <div className="siderBar">
-                      <Sidebar />
-                  </div>
+              <div className="d-flex justify-content-center">
                   <div className="main">
                     <Main></Main>
                   </div>
@@ -34,4 +30,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default FinalPage

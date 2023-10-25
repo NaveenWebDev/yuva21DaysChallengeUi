@@ -6,7 +6,7 @@ import groupimg from "../assests/Group 381.svg";
 
 const ChallengeDays = () => {
   const navigate = useNavigate();
-  const currentDay = 5;
+  const currentDay = 3;
   const data = [
     {
       id: 1,
@@ -45,8 +45,7 @@ const ChallengeDays = () => {
     },
   ];
   const navigateUploadPage = (e) => {
-    navigate("/todayChallenge");
-    console.log(e)
+    navigate(`/today-Challenge/${currentDay}`);
   };
   return (
     <>
@@ -99,7 +98,7 @@ const ChallengeDays = () => {
               return (
                 <div
                   className="challnDays d-flex justify-content-between align-items-center my-4 "
-                  onClick={() => navigateUploadPage()}
+                  onClick={()=> navigate(`/today-Challenge/${val.id}`)}
                 >
                   <>
                     <div className="dayVal text-white"> {val.day}</div>
